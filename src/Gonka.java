@@ -7,7 +7,7 @@ public class Gonka extends Thread {
         thread1.start();
         Thread0 thread2 = new Thread0("Ferrari");
         thread2.start();
-        System.setOut(new PrintStream(new BufferedOutputStream(new FileOutputStream("Test.rar")), true)); //не победил старт записи в файл
+        System.setOut(new PrintStream(new BufferedOutputStream(new FileOutputStream("Test.txt")), true)); //не победил старт записи в файл
     }
 
     static class  Thread0 implements Runnable {
